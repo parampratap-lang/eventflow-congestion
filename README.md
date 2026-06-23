@@ -32,6 +32,10 @@ Anonymized Astram traffic event data for Bangalore (~8,173 records):
 
 Stored at [`data/astram_events.csv`](data/astram_events.csv).
 
+## Hackathon Submission
+
+See [HACKATHON.md](HACKATHON.md) for the full problem statement, demo script, and judge-facing summary.
+
 ## Architecture
 
 ```
