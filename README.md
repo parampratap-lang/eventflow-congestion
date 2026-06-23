@@ -10,7 +10,11 @@ Political rallies, festivals, sports events, construction, and sudden gatherings
 
 ## Live Demo
 
-> Deploy URL will be available after Render deployment (see [Deploy on Render](#deploy-on-render)).
+**GitHub:** https://github.com/parampratap-lang/eventflow-congestion
+
+**Deploy on Render (one-click):** https://dashboard.render.com/blueprint/new?repo=https://github.com/parampratap-lang/eventflow-congestion
+
+After connecting your Render account and clicking **Deploy Blueprint**, the app will be available at your Render service URL (e.g. `https://eventflow.onrender.com`).
 
 ## Features
 

@@ -2180,11 +2180,11 @@
   "overall_median_duration": 41.20958018333333,
   "training_metrics": {
     "impact": {
-      "mae": 6.607993364794679,
+      "mae": 6.6404827040921575,
       "model": "impact"
     },
     "duration": {
-      "mae": 111.07921181204765,
+      "mae": 111.5956818338631,
       "model": "duration"
     },
     "closure": {

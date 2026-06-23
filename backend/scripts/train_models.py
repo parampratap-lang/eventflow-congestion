@@ -49,7 +49,7 @@ def train_regressor(X: pd.DataFrame, y: pd.Series, name: str) -> tuple[Pipeline,
     pipe = Pipeline(
         [
             ("prep", build_preprocessor()),
-            ("model", RandomForestRegressor(n_estimators=120, random_state=42, n_jobs=-1)),
+            ("model", RandomForestRegressor(n_estimators=60, random_state=42, n_jobs=-1)),
         ]
     )
     pipe.fit(X_train, y_train)
@@ -64,7 +64,7 @@ def train_classifier(X: pd.DataFrame, y: pd.Series) -> tuple[Pipeline, dict]:
     pipe = Pipeline(
         [
             ("prep", build_preprocessor()),
-            ("model", RandomForestClassifier(n_estimators=120, random_state=42, n_jobs=-1)),
+            ("model", RandomForestClassifier(n_estimators=60, random_state=42, n_jobs=-1)),
         ]
     )
     pipe.fit(X_train, y_train)

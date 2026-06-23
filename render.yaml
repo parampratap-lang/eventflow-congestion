@@ -3,5 +3,6 @@ services:
     name: eventflow
     runtime: docker
     plan: free
+    repo: https://github.com/parampratap-lang/eventflow-congestion
     dockerfilePath: ./Dockerfile
     healthCheckPath: /api/health
